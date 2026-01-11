@@ -1,3 +1,9 @@
+import TopBanner from '@/components/topBanner/TopBanner'
+
 export default function Home() {
-    return <div className=''>Hello e-app</div>
+    return (
+        <div className=''>
+            <TopBanner />
+        </div>
+    )
 }
