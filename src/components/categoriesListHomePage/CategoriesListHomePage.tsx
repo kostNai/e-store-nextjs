@@ -20,7 +20,7 @@ const categoriesData = [
 
 export default function CategoriesListHomePage() {
     return (
-        <section className='w-full py-40 px-20'>
+        <section className='w-full px-40 py-20'>
             <div className='w-full flex items-center justify-between'>
                 <h3>Переглянути за категорією</h3>
                 <div className='flex gap-4 items-center'>
