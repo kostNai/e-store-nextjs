@@ -4,8 +4,8 @@ import './globals.css'
 import Header from '@/components/header/Header'
 
 const inter = Inter({
-    variable: '--font-geist-sans',
     subsets: ['latin'],
+    weight: ['100', '200', '300', '400', '500', '600', '700'],
 })
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
     return (
         <html lang='en' className='min-h-screen'>
             <body
-                className={`${inter.variable}  antialiased min-h-screen flex justify-center`}
+                className={`${inter.className}  antialiased min-h-screen flex justify-center`}
             >
                 <div className='w-360'>
                     <Header />

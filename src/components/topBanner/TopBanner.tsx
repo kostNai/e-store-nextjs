@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import IphoneImage from '../../../public/iphoneImage.png'
+import Link from 'next/link'
 
 export default function TopBanner() {
     return (
         <section className='px-40 flex justify-between items-center bg-bg-banner-bg text-white'>
-            <div className=''>
+            <div className='flex flex-col gap-6'>
                 <div>
                     <h4 className='text-2xl text-text-secondary font-semibold'>
                         Pro.Beyond.
@@ -16,9 +17,13 @@ export default function TopBanner() {
                         Створено, щоб змінити все на краще. Для всіх.
                     </p>
                 </div>
-                <div>
-                    <button>Купити зараз</button>
-                </div>
+
+                <Link
+                    href='/'
+                    className='w-fit px-14 py-4 border border-solid border-white rounded-sm'
+                >
+                    Купити зараз
+                </Link>
             </div>
             <div>
                 <Image
