@@ -24,7 +24,7 @@ export default function ProductCard({ name, price, image, isFavorite }: Props) {
                 width={160}
                 height={160}
             />
-            <div className='w-full px-6 h-full flex flex-col justify-between items-center gap-4'>
+            <div className='w-full h-full flex flex-col justify-between items-center gap-4'>
                 <h4 className='text-center tracking-tighter'>{name}</h4>
                 <p className='mt-4  text-2xl font-semibold'>
                     {Math.floor(price * 43.28)}грн
