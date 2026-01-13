@@ -1,3 +1,4 @@
+import BottomBanner from '@/components/bottomBanner/BottomBanner'
 import CategoriesListHomePage from '@/components/categoriesListHomePage/CategoriesListHomePage'
 import ComboBanner from '@/components/comboBanner/ComboBanner'
 import DiscountsHomePage from '@/components/discountsHomePage/DiscountsHomePage'
@@ -14,6 +15,7 @@ export default function Home() {
             <HomePageProductList />
             <PromoBanner />
             <DiscountsHomePage />
+            <BottomBanner />
         </div>
     )
 }
